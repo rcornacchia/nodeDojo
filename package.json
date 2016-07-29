@@ -1,0 +1,11 @@
+{
+  "name": "nodeDojo",
+  "version": "1.0.0",
+  "dependencies": {
+    "express" : "*",
+    "morgan"  : "*",
+    "path"    : "*"
+  },
+  "author": "Robert Cornacchia <rlc2160@columbia.edu> (robraven.com)",
+  "license": "ISC"
+}
