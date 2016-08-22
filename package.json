@@ -2,10 +2,14 @@
   "name": "nodeDojo",
   "version": "1.0.0",
   "dependencies": {
-    "express" : "*",
-    "morgan"  : "*",
-    "path"    : "*"
+    "express": "*",
+    "morgan": "*",
+    "path": "*"
   },
   "author": "Robert Cornacchia <rlc2160@columbia.edu> (robraven.com)",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-google": "^0.6.0"
+  }
 }

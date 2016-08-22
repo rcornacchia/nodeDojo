@@ -1,3 +1,8 @@
 .core {
-    margin-top: 20px;
+  margin-top: 20px;
+}
+
+.leaderboard {
+  background-color: #D5E0ED;
+  height: 100vh;
 }
