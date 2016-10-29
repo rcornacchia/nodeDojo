@@ -1,8 +1,12 @@
-.core {
+.card-columns {
+  column-count: 2;
+}
+
+.new-art {
   margin-top: 20px;
 }
 
-.leaderboard {
-  background-color: #D5E0ED;
-  height: 100vh;
+.top-art {
+  background-color: #f6f6f6;
+  height: 93vh;
 }

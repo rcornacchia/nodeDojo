@@ -3,36 +3,39 @@
 
 <head>
   <title>Dojo</title>
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
   <nav class="navbar navbar-light bg-faded">
     <a class="navbar-brand" href="#">Dojo</a>
+    <div class="navbar navbar-right">
+      Muted navbar text that's floated right
+    </div>
+</nav>
   </nav>
   <div class="container-fluid">
-    <div class="col-md-8 core">
-      <div class="card-columns">
+    <div class="col-md-7 new-art">
+      <div class="row">
+        <h3 style="text-align: center;">New</h3>
+      </div>
+      <div class="card-columns new-art-images">
         <div class="card">
           <div class="card-block">
-            <img src="http://i.imgur.com/s72MM2Q.jpg" width="100%">
-            <h4 class="card-title">Card title that wraps to a new line</h4>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <small class="text-muted">
-              Someone famous in <cite title="Source Title">Source Title</cite>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg/687px-Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" width="100%">
+            <small>
+              "Mona Lisa"<span class="text-muted"> | Leonardo da Vinci</span>
             </small>
           </div>
         </div>
-        <div class="card card-block">
-          <blockquote class="card-blockquote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <footer>
-              <small class="text-muted">
-                Someone famous in <cite title="Source Title">Source Title</cite>
-              </small>
-            </footer>
-          </blockquote>
+        <div class="card">
+          <div class="card-block">
+            <img src="https://pbmo.files.wordpress.com/2011/04/temper-tot-by-ron-english.jpg" width="100%">
+            <small>
+              "Temper Tot"<span class="text-muted"> | Ron English</span>
+            </small>
+          </div>
         </div>
         <div class="card">
           <div class="card-block">
@@ -76,8 +79,11 @@
    
    
     <!--Sidebar-->
-    <div class="col-md-4 leaderboard">
-      <div class="core">
+    <div class="col-md-5 top-art">
+      <div class="row">
+        <h3 style="text-align: center; padding-top: 20px;">Top</h3>
+      </div>
+      <div class="core top-art-images">
         <div class="card">
           <div class="card-block">
             <h4 class="card-title">Card title that wraps to a new line</h4>
@@ -89,7 +95,7 @@
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
 </body>
 
 </html>
