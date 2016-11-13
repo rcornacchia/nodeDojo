@@ -4,9 +4,15 @@
 
 .new-art {
   margin-top: 20px;
+  height: 95vh;
+}
+
+.new-art-images {
+  overflow: auto;
 }
 
 .top-art {
+  overflow: auto;
   background-color: #f6f6f6;
-  height: 93vh;
+  height: 95vh;
 }

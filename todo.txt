@@ -1,0 +1,31 @@
+MVP:
+    + Auth0 authentication
+    + Save user information into mongoDB
+    + Upload artwork
+    + Vote on artwork
+    + Artist Profile Page
+
+
+2.0:
+    + Show timeline of a single artwork as the artist creates it.
+    + Comment on artwork
+
+
+mongoDB:
+    + When a user signs in with auth0, save the profile information to mongoDB or mySQL
+    + Figure out how to save images in the cloud.
+    + I think the best route here is to upload them to a bucket, and then distribute links to the bucket.
+    + Images:
+        - artist_id
+        - artist_name
+        -
+
+modularization:
+    + initialize array to hold images 
+
+
+Milestones:
+    + get 1 artist to upload artwork
+    + get 10 artists to upload artwork
+    + get 1 user to vote on artwork
+    + get 10 users to vote on artwork

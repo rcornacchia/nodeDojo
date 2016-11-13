@@ -2,7 +2,7 @@ var express = require('express');
 var morgan  = require('morgan');
 var path    = require('path');
 var app     = express();
-var port    = 8000;
+var port    = 3000;
 
 app.use(express.static(path.join(__dirname, 'public')));
 
