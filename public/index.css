@@ -14,5 +14,8 @@
 .top-art {
   overflow: auto;
   background-color: #f6f6f6;
-  height: 95vh;
+}
+
+body {
+    background-color: #fafafa;
 }
